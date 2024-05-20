@@ -24,6 +24,7 @@ const RealertTemplateMui: FC<RealertTemplateMuiProps> = ({ title, okText = 'OK',
   );
 };
 
-export type RealertTemplateMuiProps = RealertTemplateProps & Omit<DialogProps, 'children'>;
+export type RealertTemplateMuiProps = RealertTemplateProps &
+  Omit<DialogProps, 'children' | 'content' | 'onClose' | 'title'>;
 
 export default RealertTemplateMui;
