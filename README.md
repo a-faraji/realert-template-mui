@@ -34,9 +34,18 @@ export default function App() {
 To have typescript support for additional dialog props, define the type-aware hook.
 
 ```tsx
-import { useRealert } from '@a-faraji/realert';
+import { useRealert, RealertTemplateMuiProps } from '@a-faraji/realert';
 
-const useMuiRelaert = useRealert<typeof RealertTemplateMui>();
+const useMuiRealert = useRealert<RealertTemplateMuiProps>;
+```
+
+This new defined hook can be used like this:
+
+```tsx
+// inside a component
+const alert = useMuiRealert();
+
+alert.show('This is a MUI alert!')
 ```
 
 ## API
