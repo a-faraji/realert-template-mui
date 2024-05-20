@@ -1,1 +1,1 @@
-export { default, type RealertMuiTemplateProps } from './RealertMuiTemplate';
+export { default, type RealertTemplateMuiProps } from './RealertTemplateMui';

@@ -13,8 +13,24 @@
     "prepare": "npm run clean && npm run build",
     "test": "echo \"no test specified\" && exit 0"
   },
-  "author": "",
   "license": "MIT",
+  "author": {
+    "email": "ali.faraji90@gmail.com",
+    "name": "Ali Faraji"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-faraji/realert-template-mui"
+  },
+  "bugs": {
+    "url": "https://github.com/a-faraji/realert-template-mui/issues"
+  },
+  "keywords": [
+    "realert",
+    "react",
+    "reactjs",
+    "realert template"
+  ],
   "peerDependencies": {
     "@a-faraji/realert": "^0.0.4",
     "@emotion/react": "^11.11.4",

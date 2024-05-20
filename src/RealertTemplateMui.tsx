@@ -10,7 +10,7 @@ import {
   DialogTitle,
 } from '@mui/material';
 
-const RealertMuiTemplate: FC<RealertMuiTemplateProps> = ({ title, okText = 'OK', content, ...props }) => {
+const RealertTemplateMui: FC<RealertTemplateMuiProps> = ({ title, okText = 'OK', content, ...props }) => {
   return (
     <Dialog {...props}>
       {!!title && <DialogTitle>{title}</DialogTitle>}
@@ -24,6 +24,6 @@ const RealertMuiTemplate: FC<RealertMuiTemplateProps> = ({ title, okText = 'OK',
   );
 };
 
-export type RealertMuiTemplateProps = RealertTemplateProps & Omit<DialogProps, 'children'>;
+export type RealertTemplateMuiProps = RealertTemplateProps & Omit<DialogProps, 'children'>;
 
-export default RealertMuiTemplate;
+export default RealertTemplateMui;
