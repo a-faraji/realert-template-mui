@@ -1,6 +1,6 @@
 {
   "name": "@a-faraji/realert-template-mui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The Material UI based template which can be used by @a-faraji/realert ",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
